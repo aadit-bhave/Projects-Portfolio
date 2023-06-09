@@ -1,0 +1,32 @@
+.grid {
+    display: flex;
+    /* flex-direction: row; 
+    flex-wrap: wrap;*/
+
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.item{
+    border: solid 2px brown;
+}
+
+.item:hover img{
+    transform:translate(3%,-3%);
+}
+
+p,h1{
+    text-align: center;
+    margin: 30px; /*space between the header and the parent container*/
+    padding: 20px; /*space between the text and the red border*/
+
+}
+
+a:link{
+    color:darkblue;
+}
+
+a:visited{
+    color:aquamarine;
+}
